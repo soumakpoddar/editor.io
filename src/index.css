@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+}
+#top-pane
+{
+    background-color: hsl(225, 6%, 25%);
+    color: rgb(255, 255, 255);
+}
+.pane
+{
+    height: 50vh;
+    display: flex;
+}
+.editor-container
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: hsl(225, 6%, 25%);
+}
+.editor-title
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 13%);
+    color: rgb(241, 239, 82);
+    padding: .2rem .2rem .2rem 1rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.code-mirror-wrapper
+{
+    flex-grow: 1;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    overflow: hidden;
+    
+}
