@@ -5,7 +5,7 @@ body
 #top-pane
 {
     background-color: hsl(225, 6%, 25%);
-    color: rgb(255, 255, 255);
+    color: rgb(252, 252, 252);
 }
 .pane
 {
@@ -35,5 +35,20 @@ body
     border-bottom-right-radius: .5rem;
     border-bottom-left-radius: .5rem;
     overflow: hidden;
-    
+}
+
+.form
+{
+    min-width: 200px;
+    display: inline-block;
+}
+.form input
+{
+    float: right;
+    min-width: 300px;
+    background: transparent;
+    border: 1px solid rgb(229, 220, 130);
+    padding: 3px;
+    border-radius: .5rem;
+    color: honeydew;
 }
